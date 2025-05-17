@@ -1,6 +1,6 @@
 {
   "name": "@shubhu2002/unisat-wallet-sdk",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "UniSat Wallet SDK",
   "keywords": [
     "bitcoin",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/unisat-wallet/wallet-sdk.git"
+    "url": "https://github.com/shubhu2002/unisat-wallet-utils.git"
   },
   "author": "cybersinsloth",
   "license": "ISC",
@@ -37,14 +37,14 @@
   "dependencies": {
     "@bitcoinerlab/secp256k1": "^1.0.5",
     "@keystonehq/keystone-sdk": "^0.3.0",
+    "@noble/secp256k1": "^1.7.1",
     "big-integer": "^1.6.52",
     "bignumber.js": "^9.1.2",
     "bip39": "^3.1.0",
     "bitcoinjs-lib": "^6.1.6",
     "bitcore-lib": "^10.0.0",
     "ecpair": "^2.1.0",
-    "hdkey": "^2.1.0",
-    "tiny-secp256k1": "^2.2.3"
+    "hdkey": "^2.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.7",
